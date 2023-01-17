@@ -14,14 +14,7 @@ Parameters:
       - Suspended
     Default: Enabled
 
-  #blockpublicACls:
-    #Type: String
-    #Description: Block Public ACLs
-    #AllowedValues:
-     # - true
-      #- false
-    #Default: true
-
+ 
 Resources:
   S3Bucket:
     #DeletionPolicy: Retain
